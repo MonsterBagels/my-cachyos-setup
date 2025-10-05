@@ -40,4 +40,10 @@ This is required so that CachyOS plays nicely with my Windows 11 install. [The W
 
 rEFInd is pretty easy to modify, it autodetects OS installs. I went with the [refind-theme-regular](https://github.com/bobafetthotmail/refind-theme-regular) but other themes can be found [here](https://refind-themes-collection.netlify.app/). The only settings I had to change was to set the resolution to max and to rename the OS icons so that the correct ones were used.
 
+**Peripheral Setup**
+
+<ins>Mouse - Razer Cobra Pro</ins> - For this I installed the [OpenRazer drivers](https://openrazer.github.io/) and the Polychromatic GUI.
+
+
+
 ## App Install
