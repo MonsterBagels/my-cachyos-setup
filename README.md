@@ -42,7 +42,11 @@ rEFInd is pretty easy to modify, it autodetects OS installs. I went with the [re
 
 **Peripheral Setup**
 
-<ins>Mouse - Razer Cobra Pro</ins> - For this I installed the [OpenRazer drivers](https://openrazer.github.io/) and the Polychromatic GUI.
+<ins>Mouse - Razer Cobra Pro</ins> - For this I installed the [OpenRazer drivers](https://openrazer.github.io/) and the Polychromatic GUI. As of 5-Oct-25, OpenRazer does not support the charging dock.
+
+<ins>Keyboard - Keychron</ins> - No software required for my keyboard, it is programmed through a web interface called [Launcher](launcher.keychron.com).
+
+<ins>Headset - Steelseries Nova Pro Wireless</ins> - 
 
 
 
