@@ -46,7 +46,7 @@ rEFInd is pretty easy to modify, it autodetects OS installs. I went with the [re
 
 <ins>Keyboard - Keychron</ins> - No software required for my keyboard, it is programmed through a web interface called [Launcher](launcher.keychron.com).
 
-<ins>Headset - Steelseries Nova Pro Wireless</ins> - 
+<ins>Headset - Steelseries Nova Pro Wireless</ins> - This one was a bit more of a challenge. Steelseries has the GG software on Windows which works well and does a good job controlling audio channels. I found [Linux Arctis Manager](https://github.com/elegos/Linux-Arctis-Manager) which at least has an AUR for Arch. It can be found with Octopi using the paru tool. The AUR doesn't start the daemon however so I had to first enable the service manually using `systemctl --user enable arctis-manager.service` followed up with `arctis-manager` to start the program. 
 
 
 
