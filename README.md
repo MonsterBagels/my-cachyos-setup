@@ -44,10 +44,12 @@ rEFInd is pretty easy to modify, it autodetects OS installs. I went with the [re
 
 <ins>Mouse - Razer Cobra Pro</ins> - For this I installed the [OpenRazer drivers](https://openrazer.github.io/) and the Polychromatic GUI. As of 5-Oct-25, OpenRazer does not support the charging dock.
 
-<ins>Keyboard - Keychron</ins> - No software required for my keyboard, it is programmed through a web interface called [Launcher](launcher.keychron.com).
+<ins>Keyboard - Keychron Q5 Max</ins> - No software required for my keyboard, it is programmed through a web interface called [Launcher](launcher.keychron.com).
 
-<ins>Headset - Steelseries Nova Pro Wireless</ins> - This one was a bit more of a challenge. Steelseries has the GG software on Windows which works well and does a good job controlling audio channels. I found [Linux Arctis Manager](https://github.com/elegos/Linux-Arctis-Manager) which at least has an AUR for Arch. It can be found with Octopi using the paru tool. The AUR doesn't start the daemon however so I had to first enable the service manually using `systemctl --user enable arctis-manager.service` followed up with `arctis-manager` to start the program. 
+<ins>Headset - Steelseries Nova Pro Wireless</ins> - This one was a bit more of a challenge. Steelseries has the GG software on Windows which works well and does a good job controlling audio channels. I found [Linux Arctis Manager](https://github.com/elegos/Linux-Arctis-Manager) which at least has an AUR for Arch. It can be found with Octopi using the paru tool. The AUR doesn't start the daemon however so I had to first enable the service manually using `systemctl --user enable arctis-manager.service` followed up with `arctis-manager` to start the program. Doing this will cause it to launch automatically on restart.
 
+<ins> Bluetooth - TPLink BT500</ins>
 
+![Arctis Manager is functioning](images/Screenshot_20251005_172614.png)
 
 ## App Install
