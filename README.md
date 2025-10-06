@@ -8,8 +8,6 @@ This is meant to collect my notes as I try to move on from Windows on my gaming 
 
 ## Fresh Install
 
-![CachyOS PC Info](images/Screenshot_20251006_142209.png)
-
 [PCPartPicker parts list](https://pcpartpicker.com/list/zFjmKq)
 
 My PC has two M.2 SSD's, one with windows 11 and one with CachyOS. For the install I used the following options:
@@ -48,14 +46,10 @@ rEFInd is pretty easy to modify, it autodetects OS installs. I went with the [re
 
 <ins> Bluetooth - TPLink BT500</ins>
 
-![Arctis Manager is functioning](images/Screenshot_20251005_172614.png)
-
 ## Gaming Setup
 **Kernel and Scheduler**
 
 No real change necessary other than setting the scheduler to the gaming preset.
-
-![sched-ext settings](images/Screenshot_20251005_174458.png)
 
 **KDE Settings**
 
