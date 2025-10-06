@@ -59,4 +59,5 @@ Structure:
 + `game-performance`: Enable performance mode while game is active
 + `dlss-swapper`: CachyOS specifric script to force games using DLSS2 or later to use latest preset.
   + If dlss-swapper is not working or causing issues try updating game’s DLSS implementation manually by replacing nvngx_dlss.dll with an up-to-date version and using the dlss-swapper-dll wrapper script instead.
-+ 
+
+### General System Tweaks
