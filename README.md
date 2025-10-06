@@ -59,5 +59,16 @@ No real change necessary other than setting the scheduler to the gaming preset.
 
 ![sched-ext settings](images/Screenshot_20251005_174458.png)
 
+**KDE Settings**
+
+[System settings from this video](https://youtu.be/Vg7uclIuETQ?t=890)
+
+**Steam Settings**
+
+[Steam settings from this video](https://youtu.be/Vg7uclIuETQ?t=1495)
+
+
+
+
 
 ## App Install
