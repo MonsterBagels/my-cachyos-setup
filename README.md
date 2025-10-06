@@ -8,19 +8,17 @@ This is meant to collect my notes as I try to move on from Windows on my gaming 
 
 ## Fresh Install
 
+![CachyOS PC Info](images/Screenshot_20251006_142209.png)
+
+[PCPartPicker parts list](https://pcpartpicker.com/list/zFjmKq)
+
 My PC has two M.2 SSD's, one with windows 11 and one with CachyOS. For the install I used the following options:
 
-**Boot Manager**
+**Boot Manager - rEFInd**: I went with rEFInd because I don't need BIOS support and wanted something customizable.
 
-I went with **rEFInd** because I don't need BIOS support and wanted something customizable.
+**Filesystem - BTRFS**: I went with the default BTRFS because it includes snapshot functionality and several other [features](https://itsfoss.com/btrfs/)
 
-**Filesystem**
-
-I went with the default **BTRFS** because it includes snapshot functionality and several other [features](https://itsfoss.com/btrfs/)
-
-**Desktop Environment**
-
-**KDE Plasma** Straight forward and supports Wayland.
+**Desktop Environment - KDE Plasma**: Straight forward and supports Wayland.
 
 ## Customization
 
