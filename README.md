@@ -65,7 +65,23 @@ Structure:
 + `game-performance`: Enable performance mode while game is active
 + `dlss-swapper`: CachyOS specifric script to force games using DLSS2 or later to use latest preset.
   + If dlss-swapper is not working or causing issues try updating game’s DLSS implementation manually by replacing nvngx_dlss.dll with an up-to-date version and using the dlss-swapper-dll wrapper script instead.
-+ `gamescope`: Enable gamescope,  
++ `gamescope`: Enable gamescope, use `gamescope --help` in terminal to view options
+
+<ins>Example</ins>
+Here's what I'm using in Elden ring.
+
+```
+game-performance gamescope -h 2160 -w 3840 -r 240 -b -f --adaptive-sync --mangoapp --hdr-enabled -- %command%
+```
+
++ game-performance - enable performance mode in OS
++ gamescope: enable gamescope
+  + -h 2160 -w 3840: sets 4k resolution
+  + -r 240: sets fps limit of 240 Hz
+  + -b -f: sets borderless fullscreen
+  + --adaptive-sync: enable adaptive sync
+  + --mangoapp: When using gamescope must enable mango this way
+  + --hdr-enabled: enable HDR, must also have it turned on in system settings 
 
 ### General System Tweaks
 ~~I did a couple of the tweaks listed here including changing the AMD 3D V-Cache Optimizer to Driver in the BIOS and then setting it to cache in the OS but running the grep code didn't seem to do anything so not sure. I also disabled split lock mitigate.~~ I just disabled split lock mitigate.
