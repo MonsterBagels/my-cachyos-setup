@@ -54,6 +54,7 @@ Structure:
 <ins>**Environment Variables**</ins>
 + `PROTON_DLSS_UPGRADE=1`: Upgrades DLSS to the latest version
 + `PROTON_DLSS_INDICATOR=1`: Enable DLSS indicator
++ `MANGOHUD=1`: Enable MangoHUD (possibly Vulkan only, could also try mangohud as a wrapper)
 
 <ins>**Wrappers**</ins>
 + `game-performance`: Enable performance mode while game is active
@@ -64,7 +65,7 @@ Structure:
 I did a couple of the tweaks listed here including changing the AMD 3D V-Cache Optimizer to Driver in the BIOS and then setting it to cache in the OS but running the grep code didn't seem to do anything so not sure. I also disabled split lock mitigate. 
 
 ### Sched-ext Tutorial
-I stuck with scx_bpfland and since I'm mostly gaming  I set the profile to Gaming
+~~I stuck with scx_bpfland and since I'm mostly gaming  I set the profile to Gaming~~ Reverted profile back to auto.
 
 ### Peripheral Setup
 I mostly stuck with [this YouTube video](https://www.youtube.com/watch?v=uIRs-zh3nGI) for guidance. 
@@ -80,4 +81,16 @@ I mostly stuck with [this YouTube video](https://www.youtube.com/watch?v=uIRs-zh
 - Controller (Sony PlayStation Dualsense)
   - Had difficulty getting the controller to sync with the default Bluetooth manager so I installed [Blueman](https://github.com/blueman-project/blueman) and that worked after a controller reset.
   - Bluetooth manager gives an error saying it isn't connected but controller will connect and work afterwards
-- Streamdeck 
+- Streamdeck
+  - Works using the [StreamController](https://github.com/StreamController/StreamController) app.
+ 
+## Other Apps
++ Cider - Apple Music player (built from tar)
++ Chromium (CachyOS Package Manager)
++ Discord (cachyOS Package Manager)
++ Github Desktop (Octopi)
++ GNU (cachyOS Package Manager)
++ PLEX Desktop (Snap)
++ Pocket Casts - Podcast Player (Snap)
++ ProtonPlus / ProtonUp-Qt (Octopi)
++ VLC (cachyOS Package Manager)
