@@ -40,6 +40,7 @@ The only other thing I did here beyond what is called out in the wiki is to set 
 > Steam > Settings > Compatibility > Default Compatibility tool: proton-cachyos (native package)
 
 [Gamescope setup video](https://www.youtube.com/watch?v=wcs7JsMLHFY)
+
 [List of games supporting Nvidia DLSS](https://www.nvidia.com/en-us/geforce/news/nvidia-rtx-games-engines-apps/)
 
 
