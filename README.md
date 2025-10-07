@@ -94,3 +94,9 @@ I mostly stuck with [this YouTube video](https://www.youtube.com/watch?v=uIRs-zh
 + Pocket Casts - Podcast Player (Snap)
 + ProtonPlus / ProtonUp-Qt (Octopi)
 + VLC (cachyOS Package Manager)
+
+## Useful Commands
+**Restart to UEFI**
+```
+systemctl reboot --firmware-setup
+```
