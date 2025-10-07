@@ -39,6 +39,10 @@ The only other thing I did here beyond what is called out in the wiki is to set 
 
 > Steam > Settings > Compatibility > Default Compatibility tool: proton-cachyos (native package)
 
+[Gamescope setup video](https://www.youtube.com/watch?v=wcs7JsMLHFY)
+[List of games supporting Nvidia DLSS](https://www.nvidia.com/en-us/geforce/news/nvidia-rtx-games-engines-apps/)
+
+
 <ins> **Launch Option Setup** </ins>
 
 Structure:
@@ -60,6 +64,7 @@ Structure:
 + `game-performance`: Enable performance mode while game is active
 + `dlss-swapper`: CachyOS specifric script to force games using DLSS2 or later to use latest preset.
   + If dlss-swapper is not working or causing issues try updating game’s DLSS implementation manually by replacing nvngx_dlss.dll with an up-to-date version and using the dlss-swapper-dll wrapper script instead.
++ `gamescope`: Enable gamescope,  
 
 ### General System Tweaks
 ~~I did a couple of the tweaks listed here including changing the AMD 3D V-Cache Optimizer to Driver in the BIOS and then setting it to cache in the OS but running the grep code didn't seem to do anything so not sure. I also disabled split lock mitigate.~~ I just disabled split lock mitigate.
@@ -85,18 +90,27 @@ I mostly stuck with [this YouTube video](https://www.youtube.com/watch?v=uIRs-zh
   - Works using the [StreamController](https://github.com/StreamController/StreamController) app.
  
 ## Other Apps
++ balenaEtcher 
 + Cider - Apple Music player (built from tar)
 + Chromium (CachyOS Package Manager)
 + Discord (cachyOS Package Manager)
 + Github Desktop (Octopi)
 + GNU (cachyOS Package Manager)
++ MangoHUD / GOverlay
+  + [Setup video](https://www.youtube.com/watch?v=KSQrfWXHPDs)
 + PLEX Desktop (Snap)
 + Pocket Casts - Podcast Player (Snap)
 + ProtonPlus / ProtonUp-Qt (Octopi)
++ Thunderbird - Email client (cachyOS Package Manager)
 + VLC (cachyOS Package Manager)
 
 ## Useful Commands
 **Restart to UEFI**
 ```
 systemctl reboot --firmware-setup
+```
+
+**Activating Python Virtual Environments**
+```
+source .venv/bin/activate.fish
 ```
