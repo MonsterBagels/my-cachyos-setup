@@ -118,6 +118,7 @@ I mostly stuck with [this YouTube video](https://www.youtube.com/watch?v=uIRs-zh
 + PLEX Desktop (Snap)
 + Pocket Casts - Podcast Player (Snap)
 + ProtonPlus / ProtonUp-Qt (Octopi)
++ Syncthing - local file syncing to server (Octopi)
 + Thunderbird - Email client (cachyOS Package Manager)
 + VLC (cachyOS Package Manager)
 
