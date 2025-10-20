@@ -62,33 +62,7 @@ I mostly stuck with [this YouTube video](https://www.youtube.com/watch?v=uIRs-zh
 
 ### 9. Sound Setup
 
-I like to use virtual sources to individually adjust sound levels while gaming with a podcast, music, or discord playing also. CachyOS has [pipewire](https://wiki.archlinux.org/title/PipeWire) installed so it's not terrible. I created three virtual devices using [this tutorial](https://gitlab.freedesktop.org/pipewire/pipewire/-/wikis/Virtual-Devices#virtual-devices) and named them media, browser, and voice. Each of these need a .conf file in the `/etc/pipewire/pipewire.conf.d/` directory.
-
-```
-context.objects = [
-    {   factory = adapter
-        args = {
-            factory.name     = support.null-audio-sink
-            node.name        = "media"
-            media.class      = Audio/Sink
-            audio.position   = [ FL FR ]
-            monitor.channel-volumes = true
-            monitor.passthrough = true
-            adapter.auto-port-config = {
-                mode = dsp
-                monitor = true
-                position = preserve
-            }
-        }
-    }
-]
-```
-
-You then assign apps to each virtual device using the sound panel in system settings and then draw connections between the virtual devices and the selected output device, my monitor in this case, using an app called [Cable](https://github.com/magillos/Cable) which is in AUR.
-
-![Cables setup](https://github.com/MonsterBagels/my-cachyos-setup/blob/main/assets/cable_example.png)
-
-I also like to use virtual surround when gaming so I made another virtual device using [this tutorial](https://www.youtube.com/watch?v=tymRFhUiXVQ). Here is the code you paste into the config file, and the dolby atmos wave file I used is in the asset folder.
+I like to use virtual surround when gaming so I made a virtual device using [this tutorial](https://www.youtube.com/watch?v=tymRFhUiXVQ). Here is the code you paste into the config file, and the dolby atmos wave file I used is in the asset folder.
 
 ```
 { name = libpipewire-module-filter-chain
@@ -187,6 +161,32 @@ I also like to use virtual surround when gaming so I made another virtual device
         }
     }
 ```
+
+I like to use virtual sources to individually adjust sound levels while gaming with a podcast, music, or discord playing also. CachyOS has [pipewire](https://wiki.archlinux.org/title/PipeWire) installed so it's not terrible. I created three virtual devices using [this tutorial](https://gitlab.freedesktop.org/pipewire/pipewire/-/wikis/Virtual-Devices#virtual-devices) and named them media, game, and chat. Instead of individual .conf files listed in the tutorial I added the code below to the pipewire.conf file created in the virtual surround setup, specifically in the context.objects area.
+
+```
+context.objects = [
+    {   factory = adapter
+        args = {
+            factory.name     = support.null-audio-sink
+            node.name        = "media"
+            media.class      = Audio/Sink
+            audio.position   = [ FL FR ]
+            monitor.channel-volumes = true
+            monitor.passthrough = true
+            adapter.auto-port-config = {
+                mode = dsp
+                monitor = true
+                position = preserve
+            }
+        }
+    }
+]
+```
+
+You then assign apps to each virtual device using the sound panel in system settings and then draw connections between the virtual devices and the selected output device, my monitor in this case, using an app called [Cable](https://github.com/magillos/Cable) which is in AUR. You can make connections from the virtual devices to the hdmi output and then save the profile and set it to autoconnect at start. Individual apps can be set to each virtual device in the desktop sound menu.
+
+![Cables setup](https://github.com/MonsterBagels/my-cachyos-setup/blob/main/assets/cable_example.png)
 
 ## Application Installs
 + [balenaEtcher](https://etcher.balena.io/)
