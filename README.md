@@ -158,6 +158,12 @@ systemctl reboot --firmware-setup
 ```
 source .venv/bin/activate.fish
 ```
+
+**Restart pipewire**
+```
+systemctl --user restart pipewire pipewire-pulse wireplumber
+```
+
 **Information on Command Line Arguments**
 ```
 tldr <argument>
