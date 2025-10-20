@@ -203,9 +203,7 @@ I also like to use virtual surround when gaming so I made another virtual device
   + [Setup video](https://www.youtube.com/watch?v=KSQrfWXHPDs)
 + PLEX Desktop (Snap)
 + Pocket Casts - Podcast Player (Snap)
-+ ProtonPlus / ProtonUp-Qt (Octopi)
 + Syncthing - local file syncing to server (Octopi)
-+ Thunderbird - Email client (cachyOS Package Manager)
 + VLC (cachyOS Package Manager)
 
 
