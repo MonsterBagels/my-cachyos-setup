@@ -31,17 +31,21 @@ This is required so that CachyOS plays nicely with my Windows 11 install.
 ### 3. Post Install Recommendations
 Ran into an issue setting the WiFi region. It turns out that my onboard WiFi & BT adapter [doesn't have a working linux driver](https://www.reddit.com/r/homelab/comments/1iw23f3/anybody_know_if_mediatek_tp_link_7927_wifi_7_is/). WiFi is okay but I need Bluetooth for my controller so I bought a TP-Link UB500 which does have a linux driver. I also enabled global menu, updated tldr, and installed the appimage manager.
 
-### Boot Manager Configuration
+### 4. Boot Manager Configuration
 Setting up rEFInd is straight forward as it autodetects OS installs. I ended up going with the [refind-theme-regular](https://github.com/bobafetthotmail/refind-theme-regular) theme but others can be found [here](https://refind-themes-collection.netlify.app/). I only had to set the resolution to max in refind.conf and rename the CachyOS and Windows icons so the correct ones were used.
 
-### Gaming
+### 5. Gaming
 The only other thing I did here beyond what is called out in the wiki is to set the default proton version to native version of cachyos proton.
 
 > Steam > Settings > Compatibility > Default Compatibility tool: proton-cachyos (native package)
 
+### General System Tweaks
+~~I did a couple of the tweaks listed here including changing the AMD 3D V-Cache Optimizer to Driver in the BIOS and then setting it to cache in the OS but running the grep code didn't seem to do anything so not sure. I also disabled split lock mitigate.~~ I just disabled split lock mitigate.
+
 [Gamescope setup video](https://www.youtube.com/watch?v=wcs7JsMLHFY)
 
 [List of games supporting Nvidia DLSS](https://www.nvidia.com/en-us/geforce/news/nvidia-rtx-games-engines-apps/)
+
 
 
 <ins> **Launch Option Setup** </ins>
@@ -82,9 +86,6 @@ game-performance gamescope -h 2160 -w 3840 -r 240 -b -f --adaptive-sync --mangoa
   + --adaptive-sync: enable adaptive sync
   + --mangoapp: When using gamescope must enable mango this way
   + --hdr-enabled: enable HDR, must also have it turned on in system settings 
-
-### General System Tweaks
-~~I did a couple of the tweaks listed here including changing the AMD 3D V-Cache Optimizer to Driver in the BIOS and then setting it to cache in the OS but running the grep code didn't seem to do anything so not sure. I also disabled split lock mitigate.~~ I just disabled split lock mitigate.
 
 ### Sched-ext Tutorial
 ~~I stuck with scx_bpfland and since I'm mostly gaming  I set the profile to Gaming~~ Reverted profile back to auto.
