@@ -86,6 +86,8 @@ context.objects = [
 
 You then assign apps to each virtual device using the sound panel in system settings and then draw connections between the virtual devices and the selected output device, my monitor in this case, using an app called [Cable](https://github.com/magillos/Cable) which is in AUR.
 
+![Cables setup](https://github.com/MonsterBagels/my-cachyos-setup/blob/main/assets/cable_example.png)
+
 I also like to use virtual surround when gaming so I made another virtual device using [this tutorial](https://www.youtube.com/watch?v=tymRFhUiXVQ). Here is the code you paste into the config file, and the dolby atmos wave file I used is in the asset folder.
 
 ```
@@ -186,7 +188,26 @@ I also like to use virtual surround when gaming so I made another virtual device
     }
 ```
 
-![Cables setup](https://github.com/MonsterBagels/my-cachyos-setup/blob/main/assets/cable_example.png)
+## Application Installs
++ [balenaEtcher](https://etcher.balena.io/)
+  + `paru balena-etcher`
++ [Cider](https://taproom.cider.sh/downloads) - Apple Music player
+  + download tar from taproom and follow pacman instructions
++ [Ungoogled Chromium](https://github.com/ungoogled-software/ungoogled-chromium)
+  + Octopi
++ Discord (cachyOS Package Manager)
++ Github Desktop (Octopi)
+  + Octopi
++ GNU (cachyOS Package Manager)
++ MangoHUD / GOverlay
+  + [Setup video](https://www.youtube.com/watch?v=KSQrfWXHPDs)
++ PLEX Desktop (Snap)
++ Pocket Casts - Podcast Player (Snap)
++ ProtonPlus / ProtonUp-Qt (Octopi)
++ Syncthing - local file syncing to server (Octopi)
++ Thunderbird - Email client (cachyOS Package Manager)
++ VLC (cachyOS Package Manager)
+
 
 <ins> **Launch Option Setup** </ins>
 
@@ -227,26 +248,6 @@ game-performance gamescope -h 2160 -w 3840 -r 240 -b -f --adaptive-sync --mangoa
   + --mangoapp: When using gamescope must enable mango this way
   + --hdr-enabled: enable HDR, must also have it turned on in system settings 
 
-### Sched-ext Tutorial
-~~I stuck with scx_bpfland and since I'm mostly gaming  I set the profile to Gaming~~ Reverted profile back to auto.
-
-
- 
-## Other Apps
-+ balenaEtcher 
-+ Cider - Apple Music player (built from tar)
-+ Chromium (CachyOS Package Manager)
-+ Discord (cachyOS Package Manager)
-+ Github Desktop (Octopi)
-+ GNU (cachyOS Package Manager)
-+ MangoHUD / GOverlay
-  + [Setup video](https://www.youtube.com/watch?v=KSQrfWXHPDs)
-+ PLEX Desktop (Snap)
-+ Pocket Casts - Podcast Player (Snap)
-+ ProtonPlus / ProtonUp-Qt (Octopi)
-+ Syncthing - local file syncing to server (Octopi)
-+ Thunderbird - Email client (cachyOS Package Manager)
-+ VLC (cachyOS Package Manager)
 
 ## Useful Commands
 **Restart to UEFI**
@@ -268,3 +269,4 @@ systemctl --user restart pipewire pipewire-pulse wireplumber
 ```
 tldr <argument>
 ```
+**If asked to use yay to install AUR package, use paru instead**
