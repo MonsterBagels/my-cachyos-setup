@@ -40,7 +40,27 @@ The only other thing I did here beyond what is called out in the wiki is to set 
 > Steam > Settings > Compatibility > Default Compatibility tool: proton-cachyos (native package)
 
 ### 6. General System Tweaks
-~~I did a couple of the tweaks listed here including changing the AMD 3D V-Cache Optimizer to Driver in the BIOS and then setting it to cache in the OS but running the grep code didn't seem to do anything so not sure. I also disabled split lock mitigate.~~ I just disabled split lock mitigate.
+I just disabled split lock mitigate.
+
+### 7. Scheduler
+I'm using scx_lavd and the gaming profile.
+
+### 8. Peripheral Setup
+I mostly stuck with [this YouTube video](https://www.youtube.com/watch?v=uIRs-zh3nGI) for guidance. 
+
+- Mouse (Razer Cobra Pro)
+  - I installed the [OpenRazer Driver](https://openrazer.github.io/) and the [Polychromatic front end](https://polychromatic.app/).
+  - It didn't recognize the charging dock but that was the only issue.
+- Keyboard (Keychron Q5 MAX)
+  - No software necessary.
+  - Uses [Launcher](https://launcher.keychron.com) webtool for programming. Wasn't able to get it working on Chromium so will need to program using Windows.
+- Headphones (Arctis Nova Pro Wirelss)
+  - While not as feature rich as Steelseries' GG software, [Arctis Manager](https://github.com/elegos/Linux-Arctis-Manager) gets the job done, through providing device data and Game/Voice channels for balancing.
+- Controller (Sony PlayStation Dualsense)
+  - Had difficulty getting the controller to sync with the default Bluetooth manager so I installed [Blueman](https://github.com/blueman-project/blueman) and that worked after a controller reset.
+  - Bluetooth manager gives an error saying it isn't connected but controller will connect and work afterwards
+- Streamdeck
+  - Works using the [StreamController](https://github.com/StreamController/StreamController) app.
 
 [Gamescope setup video](https://www.youtube.com/watch?v=wcs7JsMLHFY)
 
@@ -90,22 +110,7 @@ game-performance gamescope -h 2160 -w 3840 -r 240 -b -f --adaptive-sync --mangoa
 ### Sched-ext Tutorial
 ~~I stuck with scx_bpfland and since I'm mostly gaming  I set the profile to Gaming~~ Reverted profile back to auto.
 
-### Peripheral Setup
-I mostly stuck with [this YouTube video](https://www.youtube.com/watch?v=uIRs-zh3nGI) for guidance. 
 
-- Mouse (Razer Cobra Pro)
-  - I installed the [OpenRazer Driver](https://openrazer.github.io/) and the [Polychromatic front end](https://polychromatic.app/).
-  - It didn't recognize the charging dock but that was the only issue.
-- Keyboard (Keychron Q5 MAX)
-  - No software necessary.
-  - Uses [Launcher](https://launcher.keychron.com) webtool for programming. Wasn't able to get it working on Chromium so will need to program using Windows.
-- Headphones (Arctis Nova Pro Wirelss)
-  - While not as feature rich as Steelseries' GG software, [Arctis Manager](https://github.com/elegos/Linux-Arctis-Manager) gets the job done, through providing device data and Game/Voice channels for balancing.
-- Controller (Sony PlayStation Dualsense)
-  - Had difficulty getting the controller to sync with the default Bluetooth manager so I installed [Blueman](https://github.com/blueman-project/blueman) and that worked after a controller reset.
-  - Bluetooth manager gives an error saying it isn't connected but controller will connect and work afterwards
-- Streamdeck
-  - Works using the [StreamController](https://github.com/StreamController/StreamController) app.
  
 ## Other Apps
 + balenaEtcher 
