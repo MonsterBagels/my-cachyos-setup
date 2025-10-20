@@ -48,17 +48,11 @@ I'm using scx_lavd and the gaming profile.
 ### 8. Peripheral Setup
 I mostly stuck with [this YouTube video](https://www.youtube.com/watch?v=uIRs-zh3nGI) for guidance. 
 
-- Mouse (Razer Cobra Pro)
+- Keyboard & Mouse
   - I installed the [OpenRazer Driver](https://openrazer.github.io/) and the [Polychromatic front end](https://polychromatic.app/).
-  - It didn't recognize the charging dock but that was the only issue.
-- Keyboard (Keychron Q5 MAX)
-  - No software necessary.
-  - Uses [Launcher](https://launcher.keychron.com) webtool for programming. Wasn't able to get it working on Chromium so will need to program using Windows.
-- Headphones (Arctis Nova Pro Wirelss)
-  - While not as feature rich as Steelseries' GG software, [Arctis Manager](https://github.com/elegos/Linux-Arctis-Manager) gets the job done, through providing device data and Game/Voice channels for balancing.
+  - It doesn't recognize my keyboard or mouse dock so will have to [add them myself](https://github.com/openrazer/openrazer/blob/master/DEVELOPMENT.md) or wait for support to be added to OpenRazer.
 - Controller (Sony PlayStation Dualsense)
-  - Had difficulty getting the controller to sync with the default Bluetooth manager so I installed [Blueman](https://github.com/blueman-project/blueman) and that worked after a controller reset.
-  - Bluetooth manager gives an error saying it isn't connected but controller will connect and work afterwards
+  - Bluetooth pairing wizard errors during connection but the controller is paired when you test it.
 - Streamdeck
   - Works using the [StreamController](https://github.com/StreamController/StreamController) app.
 
