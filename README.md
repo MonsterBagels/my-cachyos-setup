@@ -190,14 +190,14 @@ I also like to use virtual surround when gaming so I made another virtual device
 
 ## Application Installs
 + [balenaEtcher](https://etcher.balena.io/)
-  + `paru balena-etcher`
+  + paru or octopi
 + [Cider](https://taproom.cider.sh/downloads) - Apple Music player
   + download tar from taproom and follow pacman instructions
 + [Ungoogled Chromium](https://github.com/ungoogled-software/ungoogled-chromium)
-  + Octopi
+  + paru or octopi
 + Discord (cachyOS Package Manager)
 + Github Desktop (Octopi)
-  + Octopi
+  + paru or octopi
 + GNU (cachyOS Package Manager)
 + MangoHUD / GOverlay
   + [Setup video](https://www.youtube.com/watch?v=KSQrfWXHPDs)
