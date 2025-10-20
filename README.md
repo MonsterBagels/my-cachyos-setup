@@ -86,6 +86,8 @@ context.objects = [
 
 You then assign apps to each virtual device using the sound panel in system settings and then draw connections between the virtual devices and the selected output device, my monitor in this case, using an app called [Cable](https://github.com/magillos/Cable) which is in AUR.
 
+![Cables setup](https://github.com/MonsterBagels/my-cachyos-setup/blob/main/assets/cable_example.png)
+
 <ins> **Launch Option Setup** </ins>
 
 Structure:
