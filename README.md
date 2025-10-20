@@ -29,7 +29,7 @@ I installed this first so that I could create a snapshot of a fresh install in c
 This is required so that CachyOS plays nicely with my Windows 11 install.
 
 ### 3. Post Install Recommendations
-Ran into an issue setting the WiFi region. It turns out that my onboard WiFi & BT adapter [doesn't have a working linux driver](https://www.reddit.com/r/homelab/comments/1iw23f3/anybody_know_if_mediatek_tp_link_7927_wifi_7_is/). WiFi is okay but I need Bluetooth for my controller so I bought a TP-Link UB500 which does have a linux driver.
+Ran into an issue setting the WiFi region. It turns out that my onboard WiFi & BT adapter [doesn't have a working linux driver](https://www.reddit.com/r/homelab/comments/1iw23f3/anybody_know_if_mediatek_tp_link_7927_wifi_7_is/). WiFi is okay but I need Bluetooth for my controller so I bought a TP-Link UB500 which does have a linux driver. I also enabled global menu, updated tldr, and installed the appimage manager.
 
 ### Boot Manager Configuration
 Setting up rEFInd is straight forward as it autodetects OS installs. I ended up going with the [refind-theme-regular](https://github.com/bobafetthotmail/refind-theme-regular) theme but others can be found [here](https://refind-themes-collection.netlify.app/). I only had to set the resolution to max in refind.conf and rename the CachyOS and Windows icons so the correct ones were used.
@@ -131,4 +131,8 @@ systemctl reboot --firmware-setup
 **Activating Python Virtual Environments**
 ```
 source .venv/bin/activate.fish
+```
+**Information on Command Line Arguments**
+```
+tldr <argument>
 ```
