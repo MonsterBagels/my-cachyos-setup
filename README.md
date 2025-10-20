@@ -22,13 +22,13 @@ I used the [wiki](https://wiki.cachyos.org/configuration/secure_boot_setup/) gui
 
 ## Configuration
 
-### BTRFS Assistant
+### 1. BTRFS Assistant
 I installed this first so that I could create a snapshot of a fresh install in case I needed to roll back to it for any reason.
 
-### Secure Boot Setup
+### 2. Secure Boot Setup
 This is required so that CachyOS plays nicely with my Windows 11 install.
 
-### Post Install Recommendations
+### 3. Post Install Recommendations
 Ran into an issue setting the WiFi region. It turns out that my onboard WiFi & BT adapter [doesn't have a working linux driver](https://www.reddit.com/r/homelab/comments/1iw23f3/anybody_know_if_mediatek_tp_link_7927_wifi_7_is/). WiFi is okay but I need Bluetooth for my controller so I bought a TP-Link UB500 which does have a linux driver.
 
 ### Boot Manager Configuration
