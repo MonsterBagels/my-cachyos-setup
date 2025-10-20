@@ -39,7 +39,7 @@ The only other thing I did here beyond what is called out in the wiki is to set 
 
 > Steam > Settings > Compatibility > Default Compatibility tool: proton-cachyos (native package)
 
-### General System Tweaks
+### 6. General System Tweaks
 ~~I did a couple of the tweaks listed here including changing the AMD 3D V-Cache Optimizer to Driver in the BIOS and then setting it to cache in the OS but running the grep code didn't seem to do anything so not sure. I also disabled split lock mitigate.~~ I just disabled split lock mitigate.
 
 [Gamescope setup video](https://www.youtube.com/watch?v=wcs7JsMLHFY)
