@@ -1,4 +1,4 @@
-# CachyOS Install
+`# CachyOS Install
 This is meant to collect my notes as I try to move on from Windows on my gaming PC. 
 
 <ins>A few handy links:</ins>
