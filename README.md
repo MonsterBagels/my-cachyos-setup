@@ -218,25 +218,24 @@ You then assign apps to each virtual device using the sound panel in system sett
 
 ## Application Installs
 + [balenaEtcher](https://etcher.balena.io/)
-  + paru or octopi
 + [Cider](https://taproom.cider.sh/downloads) - Apple Music player
-  + download tar from taproom and follow pacman instructions
 + [Ungoogled Chromium](https://github.com/ungoogled-software/ungoogled-chromium)
   + CachyOS Hello
 + Discord
-  + paru or octopi
-+ Github Desktop (Octopi)
-  + paru or octopi
++ Github Desktop
++ MangoHUD / GOverlay
+  + [Setup video](https://www.youtube.com/watch?v=KSQrfWXHPDs)
 + PLEX Desktop
   + [Snap](https://snapcraft.io/plex-desktop)
 + Pocket Casts - Podcast Player
   + [Snap](https://snapcraft.io/pocket-casts)
-+ Syncthing - local file syncing to server (Octopi)
-+ VLC (cachyOS Package Manager)
++ Syncthing - local file syncing to server
+  + `sudo systemctl enable syncthing@darren` to enable syncthing at startup
+  + `sudo ufw allow syncthing` to add syncthing to firewall
++ VLC
 
 
-+ MangoHUD / GOverlay
-  + [Setup video](https://www.youtube.com/watch?v=KSQrfWXHPDs)
+
 
 
 <ins> **Launch Option Setup** </ins>
