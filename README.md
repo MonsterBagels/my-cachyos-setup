@@ -239,7 +239,7 @@ You then assign apps to each virtual device using the sound panel in system sett
     sudo modprobe i2c-dev
     sudo modprobe i2c-piix4
     ```
-  + To auto enable probes at boot:
+  + To auto enable probes at boot (AMD):
   + ```
     sudo touch /etc/modules-load.d/i2c.conf
     sudo sh -c 'echo "i2c-dev" >> /etc/modules-load.d/i2c.conf'
