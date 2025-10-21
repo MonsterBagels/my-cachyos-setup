@@ -61,6 +61,8 @@ I mostly stuck with [this YouTube video](https://www.youtube.com/watch?v=uIRs-zh
   - Bluetooth pairing wizard errors during connection but the controller is paired when you test it.
 - Streamdeck
   - Works using the [StreamController](https://github.com/StreamController/StreamController) app.
+- Case Lighting
+  - Doesn't seem to work in chromium, will need to adjust using Windows partition. 
 
 [Gamescope setup video](https://www.youtube.com/watch?v=wcs7JsMLHFY)
 
