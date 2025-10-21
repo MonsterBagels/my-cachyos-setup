@@ -165,11 +165,10 @@ I like to use virtual surround when gaming so I made a virtual device using [thi
 I like to use virtual sources to individually adjust sound levels while gaming with a podcast, music, or discord playing also. CachyOS has [pipewire](https://wiki.archlinux.org/title/PipeWire) installed so it's not terrible. I created three virtual devices using [this tutorial](https://gitlab.freedesktop.org/pipewire/pipewire/-/wikis/Virtual-Devices#virtual-devices) and named them media, game, and chat. Instead of individual .conf files listed in the tutorial I added the code below to the pipewire.conf file created in the virtual surround setup, specifically in the context.objects area.
 
 ```
-context.objects = [
     {   factory = adapter
         args = {
             factory.name     = support.null-audio-sink
-            node.name        = "media"
+            node.name        = "Media"
             media.class      = Audio/Sink
             audio.position   = [ FL FR ]
             monitor.channel-volumes = true
@@ -181,7 +180,36 @@ context.objects = [
             }
         }
     }
-]
+    {   factory = adapter
+        args = {
+            factory.name     = support.null-audio-sink
+            node.name        = "Chat"
+            media.class      = Audio/Sink
+            audio.position   = [ FL FR ]
+            monitor.channel-volumes = true
+            monitor.passthrough = true
+            adapter.auto-port-config = {
+                mode = dsp
+                monitor = true
+                position = preserve
+            }
+        }
+    }
+    {   factory = adapter
+        args = {
+            factory.name     = support.null-audio-sink
+            node.name        = "Game"
+            media.class      = Audio/Sink
+            audio.position   = [ FL FR ]
+            monitor.channel-volumes = true
+            monitor.passthrough = true
+            adapter.auto-port-config = {
+                mode = dsp
+                monitor = true
+                position = preserve
+            }
+        }
+    }
 ```
 
 You then assign apps to each virtual device using the sound panel in system settings and then draw connections between the virtual devices and the selected output device, my monitor in this case, using an app called [Cable](https://github.com/magillos/Cable) which is in AUR. You can make connections from the virtual devices to the hdmi output and then save the profile and set it to autoconnect at start. Individual apps can be set to each virtual device in the desktop sound menu.
@@ -194,17 +222,21 @@ You then assign apps to each virtual device using the sound panel in system sett
 + [Cider](https://taproom.cider.sh/downloads) - Apple Music player
   + download tar from taproom and follow pacman instructions
 + [Ungoogled Chromium](https://github.com/ungoogled-software/ungoogled-chromium)
+  + CachyOS Hello
++ Discord
   + paru or octopi
-+ Discord (cachyOS Package Manager)
 + Github Desktop (Octopi)
   + paru or octopi
-+ GNU (cachyOS Package Manager)
-+ MangoHUD / GOverlay
-  + [Setup video](https://www.youtube.com/watch?v=KSQrfWXHPDs)
-+ PLEX Desktop (Snap)
-+ Pocket Casts - Podcast Player (Snap)
++ PLEX Desktop
+  + [Snap](https://snapcraft.io/plex-desktop)
++ Pocket Casts - Podcast Player
+  + [Snap](https://snapcraft.io/pocket-casts)
 + Syncthing - local file syncing to server (Octopi)
 + VLC (cachyOS Package Manager)
+
+
++ MangoHUD / GOverlay
+  + [Setup video](https://www.youtube.com/watch?v=KSQrfWXHPDs)
 
 
 <ins> **Launch Option Setup** </ins>
