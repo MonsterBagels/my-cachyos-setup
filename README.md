@@ -4,6 +4,8 @@
 - clean up steam launch option section
 - launch option gui?
 
+https://catppuccin.com/
+
 # CachyOS Install
 This is meant to collect my notes as I try to move on from Windows on my gaming PC. 
 
