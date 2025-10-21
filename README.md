@@ -1,3 +1,9 @@
+# ToDo
+- Vkbasalt? Reshade for linux?
+- desktop theming
+- clean up steam launch option section
+- launch option gui?
+
 # CachyOS Install
 This is meant to collect my notes as I try to move on from Windows on my gaming PC. 
 
@@ -223,8 +229,22 @@ You then assign apps to each virtual device using the sound panel in system sett
   + CachyOS Hello
 + Discord
 + Github Desktop
++ LACT - GPU Overclocking
+  + `sudo systemctl enable --now lactd` to enable at startup
 + MangoHUD / GOverlay
   + [Setup video](https://www.youtube.com/watch?v=KSQrfWXHPDs)
++ OpenRGB
+  + To enable probes:
+  + ```
+    sudo modprobe i2c-dev
+    sudo modprobe i2c-piix4
+    ```
+  + To auto enable probes at boot:
+  + ```
+    sudo touch /etc/modules-load.d/i2c.conf
+    sudo sh -c 'echo "i2c-dev" >> /etc/modules-load.d/i2c.conf'
+    sudo sh -c 'echo "i2c-piix4" >> /etc/modules-load.d/i2c.conf'
+    ```
 + PLEX Desktop
   + [Snap](https://snapcraft.io/plex-desktop)
 + Pocket Casts - Podcast Player
@@ -276,7 +296,6 @@ game-performance gamescope -h 2160 -w 3840 -r 240 -b -f --adaptive-sync --mangoa
   + --adaptive-sync: enable adaptive sync
   + --mangoapp: When using gamescope must enable mango this way
   + --hdr-enabled: enable HDR, must also have it turned on in system settings 
-
 
 ## Useful Commands
 **Restart to UEFI**
