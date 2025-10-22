@@ -279,6 +279,7 @@ Structure:
 
 ### Gamescope
 [Gamescope setup video](https://www.youtube.com/watch?v=wcs7JsMLHFY)
+[Gamescope command line generator](https://rfrench3.github.io/scopebuddy-gui/web-ui/index.html)
 
 Use `gamescope --help` in konsole to see a full list of options.
 
