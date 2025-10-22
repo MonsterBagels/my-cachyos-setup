@@ -1,11 +1,3 @@
-# ToDo
-- Vkbasalt? Reshade for linux?
-- desktop theming
-- clean up steam launch option section
-- launch option gui?
-
-https://catppuccin.com/
-
 # CachyOS Install
 This is meant to collect my notes as I try to move on from Windows on my gaming PC. 
 
@@ -65,10 +57,6 @@ I mostly stuck with [this YouTube video](https://www.youtube.com/watch?v=uIRs-zh
   - Works using the [StreamController](https://github.com/StreamController/StreamController) app.
 - Case Lighting
   - Doesn't seem to work in chromium, will need to adjust using Windows partition. 
-
-[Gamescope setup video](https://www.youtube.com/watch?v=wcs7JsMLHFY)
-
-[List of games supporting Nvidia DLSS](https://www.nvidia.com/en-us/geforce/news/nvidia-rtx-games-engines-apps/)
 
 ### 9. Sound Setup
 
@@ -253,16 +241,19 @@ You then assign apps to each virtual device using the sound panel in system sett
   + [Snap](https://snapcraft.io/plex-desktop)
 + Pocket Casts - Podcast Player
   + [Snap](https://snapcraft.io/pocket-casts)
++ Sublime Text - IDE
+  + [GitHub Copilot](https://packagecontrol.io/packages/LSP-copilot) installation
 + Syncthing - local file syncing to server
   + `sudo systemctl enable syncthing@darren` to enable syncthing at startup
   + `sudo ufw allow syncthing` to add syncthing to firewall
 + VLC
 
+## Desktop Customization
+I went all in on [Catppuccin](https://catppuccin.com/), there are themes for so much available.
 
+## Gaming Setup
 
-
-
-<ins> **Launch Option Setup** </ins>
+### Launch Option Setup
 
 Structure:
 ```
@@ -277,15 +268,22 @@ Structure:
 <ins>**Environment Variables**</ins>
 + `PROTON_DLSS_UPGRADE=1`: Upgrades DLSS to the latest version
 + `PROTON_DLSS_INDICATOR=1`: Enable DLSS indicator
-+ `MANGOHUD=1`: Enable MangoHUD (possibly Vulkan only, could also try mangohud as a wrapper)
++ `MANGOHUD=1`: Enable MangoHUD (if using gamescope, enable it inside of gamescope instead)
 
 <ins>**Wrappers**</ins>
 + `game-performance`: Enable performance mode while game is active
 + `dlss-swapper`: CachyOS specifric script to force games using DLSS2 or later to use latest preset.
+  + [List of games supporting Nvidia DLSS](https://www.nvidia.com/en-us/geforce/news/nvidia-rtx-games-engines-apps/)
   + If dlss-swapper is not working or causing issues try updating game’s DLSS implementation manually by replacing nvngx_dlss.dll with an up-to-date version and using the dlss-swapper-dll wrapper script instead.
 + `gamescope`: Enable gamescope, use `gamescope --help` in terminal to view options
 
+### Gamescope
+[Gamescope setup video](https://www.youtube.com/watch?v=wcs7JsMLHFY)
+
+Use `gamescope --help` in konsole to see a full list of options.
+
 <ins>Example</ins>
+
 Here's what I'm using in Elden ring.
 
 ```
@@ -299,7 +297,7 @@ game-performance gamescope -h 2160 -w 3840 -r 240 -b -f --adaptive-sync --mangoa
   + -b -f: sets borderless fullscreen
   + --adaptive-sync: enable adaptive sync
   + --mangoapp: When using gamescope must enable mango this way
-  + --hdr-enabled: enable HDR, must also have it turned on in system settings 
+  + --hdr-enabled: enable HDR, must also have it turned on in system settings
 
 ## Useful Commands
 **Restart to UEFI**
