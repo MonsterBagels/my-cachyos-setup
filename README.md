@@ -280,6 +280,8 @@ Structure:
 ### Gamescope
 [Gamescope setup video](https://www.youtube.com/watch?v=wcs7JsMLHFY)
 [Gamescope command line generator](https://rfrench3.github.io/scopebuddy-gui/web-ui/index.html)
+[Using ReShade with Gamescope](https://www.reddit.com/r/linux_gaming/comments/1mha29v/how_do_you_use_reshade_with_gamescope/)
++ [ReShade HDR Shaders](https://github.com/EndlesslyFlowering/ReShade_HDR_shaders)
 
 Use `gamescope --help` in konsole to see a full list of options.
 
