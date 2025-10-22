@@ -8,8 +8,6 @@ This is meant to collect my notes as I try to move on from Windows on my gaming 
 
 ## Fresh Install
 
-[PCPartPicker parts list](https://pcpartpicker.com/list/zFjmKq)
-
 My PC has two M.2 SSD's, one with windows 11 and one with CachyOS. For the install I used the following options:
 
 **Boot Manager**: I went with **rEFInd** because I don't need BIOS support and wanted something customizable.
