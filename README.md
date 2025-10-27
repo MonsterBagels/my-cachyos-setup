@@ -326,3 +326,8 @@ systemctl --user restart pipewire pipewire-pulse wireplumber
 tldr <argument>
 ```
 **If asked to use yay to install AUR package, use paru instead**
+
+**Perform clean uninstall of software package and unused dependencies**
+```
+sudo pacman -Rns
+```
