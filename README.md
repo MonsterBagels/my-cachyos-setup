@@ -5,6 +5,10 @@ This is meant to collect my notes as I try to move on from Windows on my gaming 
 - [CachyOS Wiki](https://wiki.cachyos.org/)
 - [CachyOS Forum](https://discuss.cachyos.org/)
 - [Linux Gaming Subreddit FAQ](https://www.reddit.com/r/linux_gaming/wiki/faq/)
+- [Exploring CachyOS](https://www.youtube.com/watch?v=fsqqS-F9WHw)
+- [Adding appstores](https://www.youtube.com/watch?v=gYeu_HZsVIU)
+- [LinuxNext](https://www.youtube.com/watch?v=RkFe1Se3qbQ)
+- [Gnome 49](https://www.youtube.com/watch?v=DpaA0f6uZks)
 
 ## Fresh Install
 
