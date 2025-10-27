@@ -1,36 +1,27 @@
 # CachyOS Install
 This is meant to collect my notes as I try to move on from Windows on my gaming PC. 
 
-<ins>A few handy links:</ins>
+## General links:
 - [CachyOS Wiki](https://wiki.cachyos.org/)
 - [CachyOS Forum](https://discuss.cachyos.org/)
 - [Pacman Tips & Tricks](https://wiki.archlinux.org/title/Pacman/Tips_and_tricks)
 - [Linux Gaming Subreddit FAQ](https://www.reddit.com/r/linux_gaming/wiki/faq/)
-- [Exploring CachyOS](https://www.youtube.com/watch?v=fsqqS-F9WHw)
-- [LinuxNext](https://www.youtube.com/watch?v=RkFe1Se3qbQ)
 
-## Fresh Install
+## OS Configuration
 
-My PC has two M.2 SSD's, one with windows 11 and one with CachyOS. For the install I used the following options:
+## Hardware Configuration
+- My onboard WiFi & BT adapter [doesn't have a working linux driver](https://www.reddit.com/r/homelab/comments/1iw23f3/anybody_know_if_mediatek_tp_link_7927_wifi_7_is/) so using a TP-Link UB500 for Bluetooth.
+- Using [OpenRazer Driver](https://openrazer.github.io/) and [Polychromatic front end](https://polychromatic.app/) for mouse and keyboard.
+- Using [OpenRGB](https://openrgb.org/) for case lighting.
 
-**Boot Manager**: I went with **rEFInd** because I don't need BIOS support and wanted something customizable.
+## Gaming
+- [List of Environment Variables](https://wiki.cachyos.org/configuration/gaming/#environment-variables)
+- [Setting up Proton-CachyOS with Lutris and Heroic](https://wiki.cachyos.org/configuration/gaming/#setting-up-proton-cachyos-with-lutris-and-heroic)
 
-**Filesystem**: I went with the default **BTRFS** because it includes snapshot functionality and several other [features](https://itsfoss.com/btrfs/)
+## Application List
 
-**Desktop Environment**: **KDE Plasma**
+## Useful Commands
 
-I used the [wiki](https://wiki.cachyos.org/configuration/secure_boot_setup/) guide to configure the OS.
-
-## Configuration
-
-### 1. BTRFS Assistant
-Create a snapshot of fresh install to roll back to if needed.
-
-### 2. Secure Boot Setup
-This is required so that CachyOS plays nicely with my Windows 11 install.
-
-### 3. Post Install Recommendations
-Ran into an issue setting the WiFi region. It turns out that my onboard WiFi & BT adapter [doesn't have a working linux driver](https://www.reddit.com/r/homelab/comments/1iw23f3/anybody_know_if_mediatek_tp_link_7927_wifi_7_is/). WiFi is okay but I need Bluetooth for my controller so I bought a TP-Link UB500 which does have a linux driver. I also enabled global menu, updated tldr, and installed the appimage manager.
 
 ### 4. Boot Manager Configuration
 Setting up rEFInd is straight forward as it autodetects OS installs.
@@ -50,10 +41,6 @@ I'm using scx_lavd and the gaming profile.
 I mostly stuck with [this YouTube video](https://www.youtube.com/watch?v=uIRs-zh3nGI) for guidance. 
 
 - Keyboard & Mouse
-  - I installed the [OpenRazer Driver](https://openrazer.github.io/) and the [Polychromatic front end](https://polychromatic.app/).
-  - It doesn't recognize my keyboard or mouse dock so will have to [add them myself](https://github.com/openrazer/openrazer/blob/master/DEVELOPMENT.md) or wait for support to be added to OpenRazer.
-- Controller (Sony PlayStation Dualsense)
-  - Bluetooth pairing wizard errors during connection but the controller is paired when you test it.
 - Streamdeck
   - Works using the [StreamController](https://github.com/StreamController/StreamController) app.
 - Case Lighting
