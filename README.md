@@ -4,11 +4,10 @@ This is meant to collect my notes as I try to move on from Windows on my gaming 
 <ins>A few handy links:</ins>
 - [CachyOS Wiki](https://wiki.cachyos.org/)
 - [CachyOS Forum](https://discuss.cachyos.org/)
+- [Pacman Tips & Tricks](https://wiki.archlinux.org/title/Pacman/Tips_and_tricks)
 - [Linux Gaming Subreddit FAQ](https://www.reddit.com/r/linux_gaming/wiki/faq/)
 - [Exploring CachyOS](https://www.youtube.com/watch?v=fsqqS-F9WHw)
-- [Adding appstores](https://www.youtube.com/watch?v=gYeu_HZsVIU)
 - [LinuxNext](https://www.youtube.com/watch?v=RkFe1Se3qbQ)
-- [Gnome 49](https://www.youtube.com/watch?v=DpaA0f6uZks)
 
 ## Fresh Install
 
@@ -18,14 +17,14 @@ My PC has two M.2 SSD's, one with windows 11 and one with CachyOS. For the insta
 
 **Filesystem**: I went with the default **BTRFS** because it includes snapshot functionality and several other [features](https://itsfoss.com/btrfs/)
 
-**Desktop Environment**: ~~KDE Plasma~~ **Gnome**
+**Desktop Environment**: **KDE Plasma**
 
 I used the [wiki](https://wiki.cachyos.org/configuration/secure_boot_setup/) guide to configure the OS.
 
 ## Configuration
 
 ### 1. BTRFS Assistant
-I installed this first so that I could create a snapshot of a fresh install in case I needed to roll back to it for any reason.
+Create a snapshot of fresh install to roll back to if needed.
 
 ### 2. Secure Boot Setup
 This is required so that CachyOS plays nicely with my Windows 11 install.
