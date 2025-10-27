@@ -18,7 +18,7 @@ My PC has two M.2 SSD's, one with windows 11 and one with CachyOS. For the insta
 
 **Filesystem**: I went with the default **BTRFS** because it includes snapshot functionality and several other [features](https://itsfoss.com/btrfs/)
 
-**Desktop Environment**: **KDE Plasma** is straight forward and supports Wayland.
+**Desktop Environment**: ~~KDE Plasma~~ **Gnome**
 
 I used the [wiki](https://wiki.cachyos.org/configuration/secure_boot_setup/) guide to configure the OS.
 
