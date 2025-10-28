@@ -19,7 +19,9 @@ This is meant to collect my notes as I try to move on from Windows on my gaming 
 - [Setting up Proton-CachyOS with Lutris and Heroic](https://wiki.cachyos.org/configuration/gaming/#setting-up-proton-cachyos-with-lutris-and-heroic)
 
 ## Applications
-- 
+- Virtualbox
+  - [CachyOS Specifics](https://discuss.cachyos.org/t/info-on-how-to-install-virtualbox-on-cachyos/2488/13)
+  - [Arch Wiki](https://wiki.archlinux.org/title/VirtualBox)
 
 ## Useful Commands
 
