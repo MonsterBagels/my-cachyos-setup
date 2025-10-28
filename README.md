@@ -18,7 +18,8 @@ This is meant to collect my notes as I try to move on from Windows on my gaming 
 - [List of Environment Variables](https://wiki.cachyos.org/configuration/gaming/#environment-variables)
 - [Setting up Proton-CachyOS with Lutris and Heroic](https://wiki.cachyos.org/configuration/gaming/#setting-up-proton-cachyos-with-lutris-and-heroic)
 
-## Application List
+## Applications
+- 
 
 ## Useful Commands
 
@@ -291,7 +292,7 @@ game-performance gamescope -h 2160 -w 3840 -r 240 -b -f --adaptive-sync --mangoa
   + --adaptive-sync: enable adaptive sync
   + --mangoapp: When using gamescope must enable mango this way
   + --hdr-enabled: enable HDR, must also have it turned on in system settings
-
+`
 ## Useful Commands
 **Restart to UEFI**
 ```
