@@ -7,8 +7,6 @@ This is meant to collect my notes as I try to move on from Windows on my gaming 
 - [Pacman Tips & Tricks](https://wiki.archlinux.org/title/Pacman/Tips_and_tricks)
 - [Linux Gaming Subreddit FAQ](https://www.reddit.com/r/linux_gaming/wiki/faq/)
 
-## OS Configuration
-
 ## Hardware Configuration
 - My onboard WiFi & BT adapter [doesn't have a working linux driver](https://www.reddit.com/r/homelab/comments/1iw23f3/anybody_know_if_mediatek_tp_link_7927_wifi_7_is/) so using a TP-Link UB500 for Bluetooth.
 - Using [OpenRazer Driver](https://openrazer.github.io/) and [Polychromatic front end](https://polychromatic.app/) for mouse and keyboard.
@@ -19,16 +17,14 @@ This is meant to collect my notes as I try to move on from Windows on my gaming 
 ## OS Configuration
 - Trying out the scx_lavd scheduler and the gaming profile.
 
-
-## Gaming
-- [List of Environment Variables](https://wiki.cachyos.org/configuration/gaming/#environment-variables)
-
 ## Applications
 - [Pocketcasts](https://snapcraft.io/install/pocket-casts/arch)
 - Virtualbox
   - [CachyOS Specifics](https://discuss.cachyos.org/t/info-on-how-to-install-virtualbox-on-cachyos/2488/13)
   - [Arch Wiki](https://wiki.archlinux.org/title/VirtualBox)
 
+## Gaming
+- [List of Environment Variables](https://wiki.cachyos.org/configuration/gaming/#environment-variables)
 
 ## Useful Commands
 
