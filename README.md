@@ -15,12 +15,16 @@ This is meant to collect my notes as I try to move on from Windows on my gaming 
 - Using [StreamController](https://github.com/StreamController/StreamController) for my Stream Deck.
 - Using [OpenRGB](https://openrgb.org/) for case lighting.
 
-## Gaming
-- [List of Environment Variables](https://wiki.cachyos.org/configuration/gaming/#environment-variables)
+
+## OS Configuration
 - Trying out the scx_lavd scheduler and the gaming profile.
 
+
+## Gaming
+- [List of Environment Variables](https://wiki.cachyos.org/configuration/gaming/#environment-variables)
+
 ## Applications
-- [Pocketcasts](https://github.com/fuadsaud/pocket-casts-linux)
+- [Pocketcasts](https://snapcraft.io/install/pocket-casts/arch)
 - Virtualbox
   - [CachyOS Specifics](https://discuss.cachyos.org/t/info-on-how-to-install-virtualbox-on-cachyos/2488/13)
   - [Arch Wiki](https://wiki.archlinux.org/title/VirtualBox)
