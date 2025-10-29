@@ -12,6 +12,17 @@ This is meant to collect my notes as I try to move on from Windows on my gaming 
 - Using [OpenRazer Driver](https://openrazer.github.io/) and [Polychromatic front end](https://polychromatic.app/) for mouse and keyboard.
 - Using [StreamController](https://github.com/StreamController/StreamController) for my Stream Deck.
 - Using [OpenRGB](https://openrgb.org/) for case lighting.
+  + To enable probes:
+  + ```
+    sudo modprobe i2c-dev
+    sudo modprobe i2c-piix4
+    ```
+  + To auto enable probes at boot (AMD):
+  + ```
+    sudo touch /etc/modules-load.d/i2c.conf
+    sudo sh -c 'echo "i2c-dev" >> /etc/modules-load.d/i2c.conf'
+    sudo sh -c 'echo "i2c-piix4" >> /etc/modules-load.d/i2c.conf'
+    ```
 
 
 ## OS Configuration
@@ -22,6 +33,7 @@ This is meant to collect my notes as I try to move on from Windows on my gaming 
 - [Cider](https://taproom.cider.sh)
 - Gparted
 - [LACT](https://github.com/ilya-zlobintsev/LACT)
+- [PLEX Desktop](https://snapcraft.io/plex-desktop)
 - [Pocketcasts](https://snapcraft.io/install/pocket-casts/arch)
 - Virtualbox
   - [CachyOS Specifics](https://discuss.cachyos.org/t/info-on-how-to-install-virtualbox-on-cachyos/2488/13)
@@ -29,6 +41,7 @@ This is meant to collect my notes as I try to move on from Windows on my gaming 
 
 ## Gaming
 - [List of Environment Variables](https://wiki.cachyos.org/configuration/gaming/#environment-variables)
+- [Mangohud Setup Video](https://www.youtube.com/watch?v=KSQrfWXHPDs)
 
 ## Useful Commands
 
@@ -189,24 +202,8 @@ You then assign apps to each virtual device using the sound panel in system sett
 ![Cables setup](https://github.com/MonsterBagels/my-cachyos-setup/blob/main/assets/cable_example.png)
 
 
-+ MangoHUD / GOverlay
-  + [Setup video](https://www.youtube.com/watch?v=KSQrfWXHPDs)
 + OpenRGB
-  + To enable probes:
-  + ```
-    sudo modprobe i2c-dev
-    sudo modprobe i2c-piix4
-    ```
-  + To auto enable probes at boot (AMD):
-  + ```
-    sudo touch /etc/modules-load.d/i2c.conf
-    sudo sh -c 'echo "i2c-dev" >> /etc/modules-load.d/i2c.conf'
-    sudo sh -c 'echo "i2c-piix4" >> /etc/modules-load.d/i2c.conf'
-    ```
-+ PLEX Desktop
-  + [Snap](https://snapcraft.io/plex-desktop)
-+ Pocket Casts - Podcast Player
-  + [Snap](https://snapcraft.io/pocket-casts)
+  
 + Sublime Text - IDE
   + [GitHub Copilot](https://packagecontrol.io/packages/LSP-copilot) installation
 + Syncthing - local file syncing to server
