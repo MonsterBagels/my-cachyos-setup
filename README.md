@@ -18,6 +18,10 @@ This is meant to collect my notes as I try to move on from Windows on my gaming 
 - Trying out the scx_lavd scheduler and the gaming profile.
 
 ## Applications
+- [balenaEtcher](https://etcher.balena.io/)
+- [Cider](https://taproom.cider.sh)
+- Gparted
+- [LACT](https://github.com/ilya-zlobintsev/LACT)
 - [Pocketcasts](https://snapcraft.io/install/pocket-casts/arch)
 - Virtualbox
   - [CachyOS Specifics](https://discuss.cachyos.org/t/info-on-how-to-install-virtualbox-on-cachyos/2488/13)
@@ -27,12 +31,6 @@ This is meant to collect my notes as I try to move on from Windows on my gaming 
 - [List of Environment Variables](https://wiki.cachyos.org/configuration/gaming/#environment-variables)
 
 ## Useful Commands
-
-### 8. Peripheral Setup
-I mostly stuck with [this YouTube video](https://www.youtube.com/watch?v=uIRs-zh3nGI) for guidance. 
-
-- Streamdeck
-  - Works using the 
 
 ### 9. Sound Setup
 
@@ -190,15 +188,7 @@ You then assign apps to each virtual device using the sound panel in system sett
 
 ![Cables setup](https://github.com/MonsterBagels/my-cachyos-setup/blob/main/assets/cable_example.png)
 
-## Application Installs
-+ [balenaEtcher](https://etcher.balena.io/)
-+ [Cider](https://taproom.cider.sh/downloads) - Apple Music player
-+ [Ungoogled Chromium](https://github.com/ungoogled-software/ungoogled-chromium)
-  + CachyOS Hello
-+ Discord
-+ Github Desktop
-+ LACT - GPU Overclocking
-  + `sudo systemctl enable --now lactd` to enable at startup
+
 + MangoHUD / GOverlay
   + [Setup video](https://www.youtube.com/watch?v=KSQrfWXHPDs)
 + OpenRGB
