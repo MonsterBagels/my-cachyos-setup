@@ -16,12 +16,13 @@ This is meant to collect my notes as I try to move on from Windows on my gaming 
 
 ## Gaming
 - [List of Environment Variables](https://wiki.cachyos.org/configuration/gaming/#environment-variables)
-- [Setting up Proton-CachyOS with Lutris and Heroic](https://wiki.cachyos.org/configuration/gaming/#setting-up-proton-cachyos-with-lutris-and-heroic)
+- Trying out the scx_lavd scheduler and the gaming profile.
 
 ## Applications
 - Virtualbox
   - [CachyOS Specifics](https://discuss.cachyos.org/t/info-on-how-to-install-virtualbox-on-cachyos/2488/13)
   - [Arch Wiki](https://wiki.archlinux.org/title/VirtualBox)
+- [Pocketcasts](https://github.com/fuadsaud/pocket-casts-linux)
 
 ## Useful Commands
 
@@ -38,7 +39,7 @@ The only other thing I did here beyond what is called out in the wiki is to set 
 I just disabled split lock mitigate.
 
 ### 7. Scheduler
-I'm using scx_lavd and the gaming profile.
+
 
 ### 8. Peripheral Setup
 I mostly stuck with [this YouTube video](https://www.youtube.com/watch?v=uIRs-zh3nGI) for guidance. 
