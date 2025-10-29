@@ -12,6 +12,7 @@ This is meant to collect my notes as I try to move on from Windows on my gaming 
 ## Hardware Configuration
 - My onboard WiFi & BT adapter [doesn't have a working linux driver](https://www.reddit.com/r/homelab/comments/1iw23f3/anybody_know_if_mediatek_tp_link_7927_wifi_7_is/) so using a TP-Link UB500 for Bluetooth.
 - Using [OpenRazer Driver](https://openrazer.github.io/) and [Polychromatic front end](https://polychromatic.app/) for mouse and keyboard.
+- Using [StreamController](https://github.com/StreamController/StreamController) for my Stream Deck.
 - Using [OpenRGB](https://openrgb.org/) for case lighting.
 
 ## Gaming
@@ -19,36 +20,19 @@ This is meant to collect my notes as I try to move on from Windows on my gaming 
 - Trying out the scx_lavd scheduler and the gaming profile.
 
 ## Applications
+- [Pocketcasts](https://github.com/fuadsaud/pocket-casts-linux)
 - Virtualbox
   - [CachyOS Specifics](https://discuss.cachyos.org/t/info-on-how-to-install-virtualbox-on-cachyos/2488/13)
   - [Arch Wiki](https://wiki.archlinux.org/title/VirtualBox)
-- [Pocketcasts](https://github.com/fuadsaud/pocket-casts-linux)
+
 
 ## Useful Commands
-
-
-### 4. Boot Manager Configuration
-Setting up rEFInd is straight forward as it autodetects OS installs.
-
-### 5. Gaming
-The only other thing I did here beyond what is called out in the wiki is to set the default proton version to native version of cachyos proton.
-
-> Steam > Settings > Compatibility > Default Compatibility tool: proton-cachyos (native package)
-
-### 6. General System Tweaks
-I just disabled split lock mitigate.
-
-### 7. Scheduler
-
 
 ### 8. Peripheral Setup
 I mostly stuck with [this YouTube video](https://www.youtube.com/watch?v=uIRs-zh3nGI) for guidance. 
 
-- Keyboard & Mouse
 - Streamdeck
-  - Works using the [StreamController](https://github.com/StreamController/StreamController) app.
-- Case Lighting
-  - Doesn't seem to work in chromium, will need to adjust using Windows partition. 
+  - Works using the 
 
 ### 9. Sound Setup
 
