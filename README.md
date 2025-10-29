@@ -23,6 +23,7 @@ This is meant to collect my notes as I try to move on from Windows on my gaming 
     sudo sh -c 'echo "i2c-dev" >> /etc/modules-load.d/i2c.conf'
     sudo sh -c 'echo "i2c-piix4" >> /etc/modules-load.d/i2c.conf'
     ```
+- [Use this](https://github.com/nowrep/dualsensectl?tab=readme-ov-file) if using a Dual Sense Edgee controller
 
 
 ## OS Configuration
@@ -43,6 +44,9 @@ This is meant to collect my notes as I try to move on from Windows on my gaming 
 - Virtualbox
   - [CachyOS Specifics](https://discuss.cachyos.org/t/info-on-how-to-install-virtualbox-on-cachyos/2488/13)
   - [Arch Wiki](https://wiki.archlinux.org/title/VirtualBox)
+ 
+## Desktop Customization
+I went all in on [Catppuccin](https://catppuccin.com/).
 
 ## Gaming
 - [List of Environment Variables](https://wiki.cachyos.org/configuration/gaming/#environment-variables)
@@ -208,10 +212,7 @@ You then assign apps to each virtual device using the sound panel in system sett
 
 
 
-## Desktop Customization
-I went all in on [Catppuccin](https://catppuccin.com/), there are themes for so much available.
 
-## Gaming Setup
 
 ### Launch Option Setup
 
