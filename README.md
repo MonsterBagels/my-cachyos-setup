@@ -37,6 +37,9 @@ This is meant to collect my notes as I try to move on from Windows on my gaming 
 - [Pocketcasts](https://snapcraft.io/install/pocket-casts/arch)
 - Sublime Text
   - [GitHub Copilot](https://packagecontrol.io/packages/LSP-copilot) installation
+- Syncthing - local file syncing to server
+  - `sudo systemctl enable syncthing@darren` to enable syncthing at startup
+  - `sudo ufw allow syncthing` to add syncthing to firewall
 - Virtualbox
   - [CachyOS Specifics](https://discuss.cachyos.org/t/info-on-how-to-install-virtualbox-on-cachyos/2488/13)
   - [Arch Wiki](https://wiki.archlinux.org/title/VirtualBox)
@@ -203,12 +206,7 @@ You then assign apps to each virtual device using the sound panel in system sett
 
 ![Cables setup](https://github.com/MonsterBagels/my-cachyos-setup/blob/main/assets/cable_example.png)
 
-  
 
-+ Syncthing - local file syncing to server
-  + `sudo systemctl enable syncthing@darren` to enable syncthing at startup
-  + `sudo ufw allow syncthing` to add syncthing to firewall
-+ VLC
 
 ## Desktop Customization
 I went all in on [Catppuccin](https://catppuccin.com/), there are themes for so much available.
