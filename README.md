@@ -1,11 +1,3 @@
-# CachyOS Install
-This is meant to collect my notes as I try to move on from Windows on my gaming PC. 
-
-## General links:
-- [CachyOS Wiki](https://wiki.cachyos.org/)
-- [CachyOS Forum](https://discuss.cachyos.org/)
-- [Pacman Tips & Tricks](https://wiki.archlinux.org/title/Pacman/Tips_and_tricks)
-- [Linux Gaming Subreddit FAQ](https://www.reddit.com/r/linux_gaming/wiki/faq/)
 
 ## Hardware Configuration
 - My onboard WiFi & BT adapter [doesn't have a working linux driver](https://www.reddit.com/r/homelab/comments/1iw23f3/anybody_know_if_mediatek_tp_link_7927_wifi_7_is/) so using a TP-Link UB500 for Bluetooth.
